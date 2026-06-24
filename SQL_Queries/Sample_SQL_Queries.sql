@@ -1,0 +1,21 @@
+-- Fetch all users
+SELECT * FROM USERS;
+
+-- Active Accounts
+SELECT *
+FROM ACCOUNTS
+WHERE STATUS='ACTIVE';
+
+-- Total Transactions
+SELECT COUNT(*)
+FROM TRANSACTIONS;
+
+-- Verify Customer Data
+SELECT *
+FROM CUSTOMERS
+WHERE CUSTOMER_ID='10001';
+
+-- Check Recent Transactions
+SELECT *
+FROM TRANSACTIONS
+ORDER BY CREATED_DATE DESC;
