@@ -1,0 +1,10 @@
+| TC ID | Scenario                     | Expected Result             |
+| ----- | ---------------------------- | --------------------------- |
+| TC001 | Login with valid credentials | User logged in successfully |
+| TC002 | Invalid Password             | Error message displayed     |
+| TC003 | Invalid Username             | Error message displayed     |
+| TC004 | Empty Username               | Validation message          |
+| TC005 | Empty Password               | Validation message          |
+| TC006 | Both fields empty            | Validation message          |
+| TC007 | Password Case Sensitivity    | System validates correctly  |
+| TC008 | Session Timeout              | User redirected to login    |
