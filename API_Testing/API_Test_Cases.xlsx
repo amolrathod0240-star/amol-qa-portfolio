@@ -1,0 +1,8 @@
+| TC ID  | Scenario                 | Expected Result         |
+| ------ | ------------------------ | ----------------------- |
+| API001 | Valid Token              | 200 Success             |
+| API002 | Invalid Token            | 401 Unauthorized        |
+| API003 | Missing Mandatory Field  | 400 Bad Request         |
+| API004 | Invalid Request Method   | 405 Method Not Allowed  |
+| API005 | Response Time Validation | < 3 Seconds             |
+| API006 | Schema Validation        | Response matches schema |
